@@ -1,0 +1,24 @@
+<block s="reportNewList">
+    <list>
+        <block s="reportNewList">
+            <list>
+                <block s="reportNewList">
+                    <list>
+                        <l>1</l>
+                    </list>
+                </block>
+                <l>2</l>
+            </list>
+        </block>
+        <l>3</l>
+    </list>
+</block>
+
+<block s="reportSum">
+    <block s="reportNewList">
+        <list>
+            <l>1</l>
+        </list>
+    </block>
+    <l>2</l>
+</block>

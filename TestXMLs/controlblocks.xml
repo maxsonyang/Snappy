@@ -1,0 +1,267 @@
+<project name="motionblocks" app="Snap! 6, https://snap.berkeley.edu" version="1">
+    <notes></notes>
+    <thumbnail>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4CAYAAAB1ovlvAAADOUlEQVR4Xu3XQUpjYRCF0V9RcOIW3I8bEHSgBtyJ28kmsh5x4iQEB6/BWQ+U5nLpAjkZp6rIeR88crZt27Z8CAwJnAlwSN7ZLwEBCmFUQICj/I4LUAOjAgIc5XdcgBoYFRDgKL/jAtTAqIAAR/kdF6AGRgUEOMrvuAA1MCogwFF+xwWogVEBAY7yOy5ADYwKCHCU33EBamBUQICj/I4LUAOjAgIc5XdcgBoYFRDgKL/jAtTAqIAAR/kdF6AGRgUEOMrvuAA1MCogwFF+xwWogVEBAY7yOy5ADYwKCHCU33EBamBUQICj/I4LUAOjAgIc5XdcgBoYFRDgKL/jAtTAqIAAR/kdF6AGRgUEOMrvuAA1MCogwFF+xwWogVEBAY7yOy5ADYwKCHCU33EBamBUQICj/I4LUAOjAgIc5XdcgBoYFRDgKL/jAtTAqIAAv+Hf7/fr/f193d7erpubm9GH9JuPC/Cbp/vx8bFeXl7W5+fnent7W/f39+vi4mI9PT2tq6ur39zEf/1tAvyB+3A4rNfX13V9ff3Xt47H43p+fl7btn2F6ZMLCDAI8HQ6rcfHx3V+fr7u7u5yfZNLgP/4Cn54ePh6Be92u3V5eSmdkoAA/QkppZStEWDmZqokIMASpDWZgAAzN1MlAQGWIK3JBASYuZkqCQiwBGlNJiDAzM1USUCAJUhrMgEBZm6mSgICLEFakwkIMHMzVRIQYAnSmkxAgJmbqZKAAEuQ1mQCAszcTJUEBFiCtCYTEGDmZqokIMASpDWZgAAzN1MlAQGWIK3JBASYuZkqCQiwBGlNJiDAzM1USUCAJUhrMgEBZm6mSgICLEFakwkIMHMzVRIQYAnSmkxAgJmbqZKAAEuQ1mQCAszcTJUEBFiCtCYTEGDmZqokIMASpDWZgAAzN1MlAQGWIK3JBASYuZkqCQiwBGlNJiDAzM1USUCAJUhrMgEBZm6mSgICLEFakwkIMHMzVRIQYAnSmkxAgJmbqZKAAEuQ1mQCAszcTJUEBFiCtCYTEGDmZqokIMASpDWZgAAzN1MlAQGWIK3JBASYuZkqCQiwBGlNJiDAzM1USUCAJUhrMgEBZm6mSgJ/AE38F7dMeMlrAAAAAElFTkSuQmCC</thumbnail>
+    <stage name="Stage" width="480" height="360" costume="0" color="255,255,255,1" tempo="60" threadsafe="false" penlog="false" volume="100" pan="0" lines="round" ternary="false" hyperops="true" codify="false" inheritance="true" sublistIDs="false" scheduled="false" id="1">
+        <pentrails>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAOhUlEQVR4Xu3VwQkAAAjEMN1/abewn7jAQRC64wgQIECAAIF3gX1fNEiAAAECBAiMAHsCAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQIHLFxAWmhEwHPAAAAAElFTkSuQmCC</pentrails>
+        <costumes>
+            <list struct="atomic" id="2"></list>
+        </costumes>
+        <sounds>
+            <list struct="atomic" id="3"></list>
+        </sounds>
+        <variables></variables>
+        <blocks></blocks>
+        <scripts></scripts>
+        <sprites>
+            <sprite name="Sprite" idx="1" x="0" y="0" heading="90" scale="1" volume="100" pan="0" rotation="1" draggable="true" costume="0" color="80,80,80,1" pen="tip" id="8">
+                <costumes>
+                    <list struct="atomic" id="9"></list>
+                </costumes>
+                <sounds>
+                    <list struct="atomic" id="10"></list>
+                </sounds>
+                <blocks></blocks>
+                <variables></variables>
+                <scripts>
+                    <script x="19" y="8">
+                        <block s="receiveGo"></block>
+                    </script>
+                    <script x="19" y="57">
+                        <block s="receiveKey">
+                            <l>
+                                <option>space</option>
+                            </l>
+                        </block>
+                    </script>
+                    <script x="19" y="105">
+                        <block s="receiveInteraction">
+                            <l>
+                                <option>clicked</option>
+                            </l>
+                        </block>
+                    </script>
+                    <script x="19" y="153">
+                        <block s="receiveCondition">
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="19" y="199">
+                        <block s="receiveMessage">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="19" y="247">
+                        <block s="doBroadcast">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="19" y="283">
+                        <block s="doBroadcastAndWait">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="19" y="319">
+                        <block s="doSend">
+                            <l></l>
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="19" y="355">
+                        <block s="getLastMessage"></block>
+                    </script>
+                    <script x="19" y="381">
+                        <block s="doWarp">
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="19" y="432">
+                        <block s="doWait">
+                            <l>1</l>
+                        </block>
+                    </script>
+                    <script x="19" y="468">
+                        <block s="doWaitUntil">
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="19" y="502">
+                        <block s="doForever">
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="8" y="548.8">
+                        <block s="doRepeat">
+                            <l>10</l>
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="20.8" y="601.6">
+                        <block s="doFor">
+                            <l>i</l>
+                            <l>1</l>
+                            <l>10</l>
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="20" y="670">
+                        <block s="doIf">
+                            <l/>
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="14.6" y="729.0666666666667">
+                        <block s="doIfElse">
+                            <l/>
+                            <script></script>
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="20.2" y="815.3333333333335">
+                        <block s="reportIfElse">
+                            <l/>
+                            <l></l>
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="22.6" y="848.8000000000004">
+                        <block s="doReport">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="28.2" y="889.6666666666672">
+                        <block s="doStopThis">
+                            <l>
+                                <option>all</option>
+                            </l>
+                        </block>
+                    </script>
+                    <script x="22.6" y="918.3333333333339">
+                        <block s="doRun">
+                            <block s="reifyScript">
+                                <script></script>
+                                <list></list>
+                            </block>
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="22.6" y="969.3333333333339">
+                        <block s="fork">
+                            <block s="reifyScript">
+                                <script></script>
+                                <list></list>
+                            </block>
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="20.2" y="1017.2000000000007">
+                        <block s="evaluate">
+                            <block s="reifyReporter">
+                                <script></script>
+                                <list></list>
+                            </block>
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="25" y="1058.8666666666675">
+                        <block s="doTellTo">
+                            <l></l>
+                            <block s="reifyScript">
+                                <script></script>
+                                <list></list>
+                            </block>
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="31.4" y="1107.1333333333343">
+                        <block s="reportAskFor">
+                            <l></l>
+                            <block s="reifyReporter">
+                                <script></script>
+                                <list></list>
+                            </block>
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="29" y="1142.800000000001">
+                        <block s="doCallCC">
+                            <block s="reifyScript">
+                                <script></script>
+                                <list></list>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="36.2" y="1203.0000000000011">
+                        <block s="reportCallCC">
+                            <block s="reifyScript">
+                                <script></script>
+                                <list></list>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="28.2" y="1233.800000000001">
+                        <block s="receiveOnClone"></block>
+                    </script>
+                    <script x="26.6" y="1283.600000000001">
+                        <block s="createClone">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="26.6" y="1330.800000000001">
+                        <block s="newClone">
+                            <l>
+                                <option>myself</option>
+                            </l>
+                        </block>
+                    </script>
+                    <script x="26.6" y="1361.800000000001">
+                        <block s="removeClone"></block>
+                    </script>
+                </scripts>
+            </sprite>
+        </sprites>
+    </stage>
+    <hidden></hidden>
+    <headers></headers>
+    <code></code>
+    <blocks>
+        <block-definition s="example command %&apos;input&apos; %&apos;input1&apos; %&apos;input2&apos;" type="command" category="other">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%txt"></input>
+                <input type="%l"></input>
+                <input type="%s"></input>
+            </inputs>
+        </block-definition>
+        <block-definition s="example reporter %&apos;input1&apos; %&apos;input2&apos;" type="reporter" category="other">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%n"></input>
+                <input type="%cmdRing"></input>
+            </inputs>
+            <script>
+                <block s="doReport">
+                    <l></l>
+                </block>
+            </script>
+        </block-definition>
+        <block-definition s="example predicate %&apos;input1&apos; %&apos;input2&apos;" type="predicate" category="other">
+            <header></header>
+            <code></code>
+            <translations></translations>
+            <inputs>
+                <input type="%repRing"></input>
+                <input type="%predRing"></input>
+            </inputs>
+            <script>
+                <block s="doReport">
+                    <l></l>
+                </block>
+            </script>
+        </block-definition>
+    </blocks>
+    <variables></variables>
+</project>

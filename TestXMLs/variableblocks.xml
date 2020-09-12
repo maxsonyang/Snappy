@@ -1,0 +1,201 @@
+<project name="Variables XML" app="Snap! 6, https://snap.berkeley.edu" version="1">
+    <notes></notes>
+    <thumbnail>data:image/png;base64,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</thumbnail>
+    <stage name="Stage" width="480" height="360" costume="0" color="255,255,255,1" tempo="60" threadsafe="false" penlog="false" volume="100" pan="0" lines="round" ternary="false" hyperops="true" codify="false" inheritance="true" sublistIDs="false" scheduled="false" id="1">
+        <pentrails>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAOhUlEQVR4Xu3VwQkAAAjEMN1/abewn7jAQRC64wgQIECAAIF3gX1fNEiAAAECBAiMAHsCAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQIHLFxAWmhEwHPAAAAAElFTkSuQmCC</pentrails>
+        <costumes>
+            <list struct="atomic" id="2"></list>
+        </costumes>
+        <sounds>
+            <list struct="atomic" id="3"></list>
+        </sounds>
+        <variables></variables>
+        <blocks></blocks>
+        <scripts></scripts>
+        <sprites>
+            <sprite name="Sprite" idx="1" x="0" y="0" heading="90" scale="1" volume="100" pan="0" rotation="1" draggable="true" costume="0" color="80,80,80,1" pen="tip" id="8">
+                <costumes>
+                    <list struct="atomic" id="9"></list>
+                </costumes>
+                <sounds>
+                    <list struct="atomic" id="10"></list>
+                </sounds>
+                <blocks></blocks>
+                <variables></variables>
+                <scripts>
+                    <script x="16" y="16">
+                        <block s="doSetVar">
+                            <l></l>
+                            <l>0</l>
+                        </block>
+                        <block s="doChangeVar">
+                            <l></l>
+                            <l>1</l>
+                        </block>
+                        <block s="doShowVar">
+                            <l></l>
+                        </block>
+                        <block s="doHideVar">
+                            <l></l>
+                        </block>
+                        <block s="doDeclareVariables">
+                            <list>
+                                <l>TEST LOCAL</l>
+                            </list>
+                        </block>
+                        <block s="doDeleteAttr">
+                            <l></l>
+                        </block>
+                    </script>
+                    <script x="16" y="160.6">
+                        <block s="reportNewList">
+                            <list></list>
+                        </block>
+                    </script>
+                    <script x="16" y="186.6">
+                        <block s="reportNumbers">
+                            <l>1</l>
+                            <l>10</l>
+                        </block>
+                    </script>
+                    <script x="16" y="216.6">
+                        <block s="reportCONS">
+                            <l></l>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="246.6">
+                        <block s="reportListItem">
+                            <l>1</l>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="276.6">
+                        <block s="reportCDR">
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="302.6">
+                        <block s="reportListLength">
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="328.6">
+                        <block s="reportListIndex">
+                            <l>thing</l>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="358.6">
+                        <block s="reportListContainsItem">
+                            <l/>
+                            <l>thing</l>
+                        </block>
+                    </script>
+                    <script x="16" y="388.6">
+                        <block s="reportListIsEmpty">
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="414.6000000000001">
+                        <block s="reportMap">
+                            <block s="reifyReporter">
+                                <script></script>
+                                <list>
+                                    <l>value</l>
+                                    <l>index</l>
+                                    <l>list</l>
+                                </list>
+                            </block>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="458.6000000000001">
+                        <block s="reportKeep">
+                            <block s="reifyPredicate">
+                                <script></script>
+                                <list>
+                                    <l>value</l>
+                                    <l>index</l>
+                                    <l>list</l>
+                                </list>
+                            </block>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="496.2000000000001">
+                        <block s="reportFindFirst">
+                            <block s="reifyPredicate">
+                                <script></script>
+                                <list>
+                                    <l>value</l>
+                                    <l>index</l>
+                                    <l>list</l>
+                                </list>
+                            </block>
+                            <l/>
+                        </block>
+                    </script>
+                    <script x="16" y="540.2">
+                        <block s="reportCombine">
+                            <l/>
+                            <block s="reifyReporter">
+                                <script></script>
+                                <list>
+                                    <l>#1</l>
+                                    <l>#2</l>
+                                    <l>#3</l>
+                                </list>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="16" y="577.8">
+                        <block s="doForEach">
+                            <l>item</l>
+                            <l/>
+                            <script></script>
+                        </block>
+                    </script>
+                    <script x="16" y="636.4">
+                        <block s="reportConcatenatedLists">
+                            <list>
+                                <l/>
+                                <l/>
+                            </list>
+                        </block>
+                    </script>
+                    <script x="16" y="662.4">
+                        <block s="doAddToList">
+                            <l>thing</l>
+                            <l/>
+                        </block>
+                        <block s="doDeleteFromList">
+                            <l>1</l>
+                            <l/>
+                        </block>
+                        <block s="doInsertInList">
+                            <l>thing</l>
+                            <l>1</l>
+                            <l/>
+                        </block>
+                        <block s="doReplaceInList">
+                            <l>1</l>
+                            <l/>
+                            <l>thing</l>
+                        </block>
+                    </script>
+                </scripts>
+            </sprite>
+            <watcher var="TEST GLOBAL" style="normal" x="10" y="10" color="243,118,29"/>
+        </sprites>
+    </stage>
+    <hidden></hidden>
+    <headers></headers>
+    <code></code>
+    <blocks></blocks>
+    <variables>
+        <variable name="TEST GLOBAL">
+            <l>0</l>
+        </variable>
+    </variables>
+</project>
